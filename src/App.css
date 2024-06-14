@@ -1,0 +1,28 @@
+@keyframes scaleUp {
+    from {
+        transform: scale(0.1);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.chart-dialog-enter {
+    animation: scaleUp 0.3s ease-out forwards;
+}
+@keyframes scaleDown {
+    from {
+        transform: scale(1);
+        opacity: 1;
+    }
+    to {
+        transform: scale(0.1);
+        opacity: 0;
+    }
+}
+
+.chart-dialog-exit {
+    animation: scaleDown 0.3s ease-out forwards;
+}

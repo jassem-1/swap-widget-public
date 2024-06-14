@@ -1,0 +1,27 @@
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+    @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+    .background {
+        background-image: url('./assets/background.svg');
+        background-size: cover; /* Cover the entire container */
+        background-position: center; /* Center the background image */
+      }
+      .blur-background {
+        backdrop-filter: blur(5px); /* Adjust the blur amount (in pixels) as needed */
+
+      }
+      .exo-light {
+        font-family: "Exo", sans-serif;
+        font-weight: 300;
+      }
+      .exo-semibold {
+        font-family: "Exo", sans-serif;
+        font-weight: 500;
+      }
+      
+      .exo-bold {
+        font-family: "Exo", sans-serif;
+        font-weight: 700;
+      }
